@@ -93,7 +93,6 @@ textarea {
   footer {}
   
   /* Header Styles */
-  header {}
 
   header .content-wrapper {}
 
@@ -102,6 +101,8 @@ textarea {
   .header-divider {}
 
   header nav {}
+
+  header nav ul {}
 
   /* Footer Styles */
 
@@ -115,7 +116,7 @@ textarea {
 
   footer .social {}
 
-  .social-icons {}
+  footer .social-icons {}
 
   .copyright {}
 
@@ -131,17 +132,35 @@ textarea {
 
   .form {}
 
-  section .features {}
+  .features {}
 
-  .features-items {}
+  .features .features-items {}
 
   .fontawesome-icon {}
 
   .features-item-description {}
 
-  section .reviews {}
+  .reviews {}
 
-  
+   /* --------------------- Mobile Styles - About --------------------- */
+
+  .mission {}
+
+  .mission-content {}
+
+  section .map {}
+
+  .contact-section {}
+
+  address .contact-content {}
+
+   /* --------------------- Mobile Styles - FAQ --------------------- */
+
+   .faq {}
+
+   .faq .faq-content {}
+
+
 
 /* ==========================================================================
    Helper classes
