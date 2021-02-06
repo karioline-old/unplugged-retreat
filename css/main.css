@@ -87,6 +87,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  /* --------------------- Base Header - Footer Styles --------------------- */
+
+  header,
+  footer {}
+  
+  /* Header Styles */
+  header {}
+
+  header .content-wrapper {}
+
+  header figure {}
+
+  .header-divider {}
+
+  header nav {}
+
+  /* Footer Styles */
+
+  footer {}
+
+  footer .content-wrapper {}
+
+  .footer-content {}
+
+  footer .contact {}
+
+  footer .social {}
+
+  .social-icons {}
+
+  .copyright {}
+
+  /* --------------------- Mobile Styles - Homepage --------------------- */
+
+  .hero-area {}
+
+  main .content-wrapper {}
+
+  aside {} 
+
+  .form-description {}
+
+  .form {}
+
+  section .features {}
+
+  .features-items {}
+
+  .fontawesome-icon {}
+
+  .features-item-description {}
+
+  section .reviews {}
+
+  
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
