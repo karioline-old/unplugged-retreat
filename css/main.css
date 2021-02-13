@@ -88,79 +88,113 @@ textarea {
    ========================================================================== */
 
   /* --------------------- Base Header - Footer Styles --------------------- */
-
   header,
-  footer {}
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   
   /* Header Styles */
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-  header .content-wrapper {}
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-  header figure {}
-
-  .header-divider {}
-
-  header nav {}
-
-  header nav ul {}
+  header nav ul {
+    display:flex;
+    justify-content: space-around;
+  }
 
   /* Footer Styles */
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-  footer {}
-
-  footer .content-wrapper {}
-
-  .footer-content {}
-
-  footer .contact {}
-
-  footer .social {}
-
-  footer .social-icons {}
-
-  .copyright {}
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   /* --------------------- Mobile Styles - Homepage --------------------- */
+  .hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-  .hero-area {}
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  } 
 
-  main .content-wrapper {}
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
 
-  aside {} 
+  .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-  .form-description {}
-
-  .form {}
-
-  .features {}
-
-  .features .features-items {}
-
-  .fontawesome-icon {}
-
-  .features-item-description {}
-
-  .reviews {}
+  .reviews {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
 
    /* --------------------- Mobile Styles - About --------------------- */
 
-  .mission {}
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-  .mission-content {}
-
-  section .map {}
-
-  .contact-section {}
-
-  address .contact-content {}
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
    /* --------------------- Mobile Styles - FAQ --------------------- */
 
-   .faq {}
+   .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
 
-   .faq .faq-content {}
-
-
+   .faq .faq-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
 
 /* ==========================================================================
    Helper classes
