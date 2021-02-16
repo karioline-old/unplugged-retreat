@@ -105,6 +105,7 @@ textarea {
   }
 
   header nav {
+    width: 60%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -112,8 +113,18 @@ textarea {
   }
 
   header nav ul {
+    width: 60%;
     display:flex;
     justify-content: space-around;
+  }
+
+  .header-divider {
+    width: 100%;
+  }
+
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
   }
 
   /* Footer Styles */
@@ -144,10 +155,18 @@ textarea {
     flex-flow: row wrap;
   } 
 
+  .content-wrapper {
+    width: 90%;
+  }
+
   .features {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+  }
+
+  article {
+    width: 55%;
   }
 
   .features .features-items {
@@ -162,6 +181,10 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+  }
+
+  .reviews h3 {
+    width: 50%;
   }
 
    /* --------------------- Mobile Styles - About --------------------- */
